@@ -9,7 +9,7 @@ API that receives a number so return a sequence
 - [Docker](https://projectlombok.org/)
 - [Docker-compose](https://docs.docker.com/compose/)
 
-## Executar a Aplicação
+## Run the application
 
 To run it, you need to set up the project locally, and the following commands should be executed.
 - Running locally
