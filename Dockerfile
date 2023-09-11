@@ -17,7 +17,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the compiled JAR from the builder stage
-COPY --from=builder /app/target/order-reader-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=builder /app/target/labseq-generator-0.0.1-SNAPSHOT.jar app.jar
 
 # Command to run the application
 CMD ["java", "-jar", "app.jar"]

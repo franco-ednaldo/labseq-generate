@@ -8,7 +8,7 @@ import org.mapstruct.Mapper;
 @Mapper(componentModel = "spring")
 public interface LabSequenceMapper {
 
-    LabSequenceDomain toResponse(LabSequenceRequest labSequenceRequest);
+    LabSequenceDomain toDomain(LabSequenceRequest labSequenceRequest);
 
     LabSequenceResponse toResponse(LabSequenceDomain labSequenceDomain);
 }

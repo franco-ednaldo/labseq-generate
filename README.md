@@ -1,20 +1,26 @@
-## Order reader
+## labseq-generator
 
-API que recebe um ou mais arquivos com informações de pedido fitos pelos os clientes e devolve o resultado normalizado no formato json.
+API that receives a number so return a sequence
 ## Técnologias
 
 - [Java 17](https://docs.oracle.com/en/java/javase/17/)
 - [Spring Boot](http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/)
 - [Maven](https://maven.apache.org/)
-- [Lombok](https://projectlombok.org/)
 - [Docker](https://projectlombok.org/)
 - [Docker-compose](https://docs.docker.com/compose/)
 
 ## Executar a Aplicação
 
-Para executar é neessário subir o projeto local os seguinte comando deve ser execultado
-- Executando localmente
-    - Start da aplicação:
+To run it, you need to set up the project locally, and the following commands should be executed.
+- Running locally
+    - Application Start:
       > docker-compose up --build
 
-Ao executar a aplicação localmente, é criado uma imagem [Docker](https://www.docker.com/), caso não tenha o docker instalado segue o link: [instalar o Docker](https://docs.docker.com/install/)
+When running the application locally, an image is created [Docker](https://www.docker.com/), if you don't have Docker install, you can follow this  link to install
+
+## API documentation
+
+The documentation can be accessed by a web browser by entering the following address when the application is running
+    http://localhost:8080/swagger-ui/index.html
+
+To access it directly: [Click here](http://localhost:8080/swagger-ui/index.html)
