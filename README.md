@@ -1,7 +1,7 @@
 ## labseq-generator
 
 API that receives a number so return a sequence
-## Técnologias
+## Technologies
 
 - [Java 17](https://docs.oracle.com/en/java/javase/17/)
 - [Spring Boot](http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/)
